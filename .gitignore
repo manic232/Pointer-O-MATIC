@@ -1,0 +1,6 @@
+# Created by the app on first run - personal settings, not part of the project
+*.ini
+
+# Built program and release zips (upload the zip to GitHub Releases instead)
+*.exe
+dist/
