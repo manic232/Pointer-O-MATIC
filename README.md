@@ -14,6 +14,7 @@ A tiny, portable Windows app that puts an arrow on your screen, so you can keep 
 - **Drag it anywhere.** Use the keyboard arrow keys to move it 1 pixel at a time (10 with Shift)
 - **Any colour**, plus an optional outline in an automatic contrasting colour or one you choose
 - **Live resizing:** width and height sliders update the arrow as you drag, and the tip stays where it's pointing
+- **Four shapes:** Classic and Slim (with a tail), Triangle and Dart (without). Switching shape keeps the tip exactly where it was
 - **Point in any direction:** right, left, up or down
 - **Follow clicks:** the arrow can jump to wherever you last clicked, which is handy for keeping your place in a long list of links. It can sit a set distance to one side of the click, or stay in its column and only move up and down. You can make it move only when you hold a key of your choice while clicking, or only for clicks in one program (such as your browser), and turn following on and off from any program with a keyboard shortcut (Ctrl+Shift+Space, or one you choose)
 - **Right-click menu** on the arrow, in a light or dark style, or matching Windows automatically
@@ -75,6 +76,7 @@ Outline=1
 OutlineColour=Auto        ; Auto, or a colour like #FFFF00
 AlwaysOnTop=1
 Direction=Right           ; Right, Left, Up or Down
+Shape=Classic             ; Classic, Slim, Triangle or Dart
 [Menu]
 Theme=System              ; System (match Windows), Light or Dark
 [Follow]
